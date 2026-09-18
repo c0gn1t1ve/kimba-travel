@@ -85,7 +85,7 @@ export function EnquireForm({
   function validate() {
     const next: Partial<Record<keyof FormState, string>> = {};
     if (!values.name.trim()) next.name = "Please tell us your name.";
-    if (!/[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email) === false && !/^[^^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
       next.email = "A working email helps us reply.";
     }
     if (!values.style) next.style = "How would you like to travel?";
