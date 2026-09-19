@@ -1,6 +1,7 @@
 export const site = {
   name: "Kimba African Journeys",
   shortName: "Kimba",
+  url: "https://kimbajourneys.com",
   tagline: "Curated travel. Authentic experiences.",
   promise: "Bespoke itineraries • Personal service • Extraordinary Africa",
   eyebrow: "Southern Africa, thoughtfully crafted",
