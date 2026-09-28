@@ -25,3 +25,5 @@ yarn-error.log*
 
 # agent scratch
 agent-tools
+.vercel
+.env*

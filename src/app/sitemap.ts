@@ -33,11 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
-    {
-      url: absoluteUrl("/contact"),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
   ];
 
   const journeyPages: MetadataRoute.Sitemap = journeys.map((journey) => ({
